@@ -21,6 +21,3 @@ twtr.stream 'statuses/filter', {track: '@forestgen'}, (stream) ->
       console.log "Made a forest for #{name}!"
     .catch (error) ->
       throw error
-
-# Build the post with a story (passing in the author's name) and a forest
-# post = "#{story name} #{forestgen 'twitter'}"

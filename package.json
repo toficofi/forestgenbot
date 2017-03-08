@@ -21,6 +21,7 @@
     "coffeescript": "^1.12.4",
     "config": "^1.25.1",
     "random-js": "^1.0.8",
+    "random-word": "^2.0.0",
     "string-hash": "^1.1.3",
     "timeparts": "^1.0.1",
     "tracery-grammar": "^2.7.3",
