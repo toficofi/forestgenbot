@@ -19,7 +19,7 @@ module.exports = (input) ->
   result = ""
 
   # Pick 50 random emojis
-  for i in [1..50]
+  for i in [1..52]
     result += Random.pick(engine, trees)
 
   return result

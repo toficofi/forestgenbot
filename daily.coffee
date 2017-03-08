@@ -11,7 +11,7 @@ word = randomWord()
 forest = forestgen word
 
 # Post the story and forest back to them
-twtr.post 'statuses/update', {status: "today's daily forest is '#{word}'\n\n#{forest}'"}
+twtr.post 'statuses/update', {status: "today's daily forest is '#{word}'\n\n#{forest}"}
 .then ->
   console.log "Made a daily forest for #{word}!"
 .catch (error) ->
